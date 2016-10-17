@@ -1,7 +1,14 @@
 h1{font-family: Dawning of a New Day;
-	font-size: 150px;
+	font-size: 50px;
 	color:#000000;
 	background-color: #E0D2C5;
+	text-align:center;
+
+}
+
+a:link {
+	text-decoration:none;
+	color:none;
 
 }
 
@@ -10,16 +17,16 @@ h1{font-family: Dawning of a New Day;
 	left:50%;
 	margin-left:-300px;
 	position:fixed;
-	margin-top:50px;
+	margin-top:-40px;
 
 }
 
 #header {
 	position: relative;
-	top: -10px;
+	top: -30px;
 	background-color:#f5c8bf;
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 }
 
 ul{
@@ -32,7 +39,7 @@ li {
 	border: 2px solid #000000;
 	font-family: taviraj;
 	color:#000000 ;
-	border-radius: 15px 15px;
+	border-radius: -100px -100px;
 	background-color: #f5c8bf;
 	display:inline;
 	padding:10px;
