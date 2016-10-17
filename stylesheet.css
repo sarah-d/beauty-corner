@@ -1,4 +1,8 @@
-h1{font-family: Dawning of a New Day;
+body{background-color: #CAD9CA;
+}
+
+h1{
+	font-family: Dawning of a New Day;
 	font-size: 50px;
 	color:#000000;
 	background-color: #E0D2C5;
@@ -6,41 +10,64 @@ h1{font-family: Dawning of a New Day;
 
 }
 
-a:link {
-	text-decoration:none;
-	color:none;
-
-}
-
-
-#navbar {
-	left:50%;
-	margin-left:-300px;
-	position:fixed;
-	margin-top:-40px;
-
-}
 
 #header {
 	position: relative;
-	top: -30px;
-	background-color:#f5c8bf;
-	border-top-left-radius: 10px;
-	border-top-right-radius: 10px;
+	top: -40px;
+	background-color:#CAD9CA;
+	border-top-left-radius: -50px;
+	border-top-right-radius: -50px;
+	width: 100%; 
+	height: 200px;
+
+}
+#networks {
+	float:top;
+	 width:10px;
+	 height:10px;
+	 margin-bottom: 200px;
+	 margin-left:25px;
+	 position : relative;
+	 display:inline;
+
 }
 
-ul{
-	list-style-type: none;
-	position: fixed;
-	margin: -10px;
+
 }
 
-li {
-	border: 2px solid #000000;
-	font-family: taviraj;
-	color:#000000 ;
-	border-radius: -100px -100px;
-	background-color: #f5c8bf;
-	display:inline;
-	padding:10px;
+#navbar {
+	left:50%;
+	width: :100%;
+	margin-left:-380px;
+	position:fixed;
+	margin-top:-40px;
+	text-align:center;
+
 }
+    #navbar a:link {
+	    text-decoration:none;
+	 }
+  
+           #navbar ul{
+	       list-style-type: none;
+	        position: fixed;
+	        margin: -10px;
+            }
+
+                 #navbar ul li {
+	             border: 3px solid #495453;
+	             font-family: Dawning of a New Day;
+	             font-size:30px;
+	             color:#000000 ;
+	             border-radius: -100px -100px;
+	             background-color: #CAD9CA;
+	             display:inline;
+	             padding:10px;
+                 }
+
+                      #navbar ul li: hover {
+                       color: #000000;
+                       cursor:pointer;
+                       font-family:taviraj;
+                   }
+
