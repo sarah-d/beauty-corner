@@ -2,72 +2,158 @@ body{background-color: #CAD9CA;
 }
 
 h1{
-	font-family: Dawning of a New Day;
-	font-size: 50px;
-	color:#000000;
-	background-color: #E0D2C5;
+	font-family: Dawning of a new day;
+	font-size: 100px;
+	color:#F5C8BF;
+	background-color: #495453;
 	text-align:center;
 
+
+}
+
+#social{
+	margin-right:100px;
 }
 
 
 #header {
 	position: relative;
-	top: -40px;
-	background-color:#CAD9CA;
-	border-top-left-radius: -50px;
-	border-top-right-radius: -50px;
-	width: 100%; 
-	height: 200px;
+	margin-top: -30px;
+	background-color:#495453;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	width: 100%;
+	height: 100%;
 
 }
-#networks {
-	float:top;
-	 width:10px;
-	 height:10px;
-	 margin-bottom: 200px;
-	 margin-left:25px;
-	 position : relative;
-	 display:inline;
+ #header a {
+ 	position:relative;
+ 	display:inline;
+ 	margin-top: 200px;	
+ 	float:top;
 
-}
+ }
 
 
-}
 
 #navbar {
 	left:50%;
-	width: :100%;
+	width: 100%;
 	margin-left:-380px;
 	position:fixed;
-	margin-top:-40px;
+	margin-top:-52px;
 	text-align:center;
 
 }
     #navbar a:link {
 	    text-decoration:none;
 	 }
+	 #navbar a:visited {
+	    text-decoration:none;
+	 }
   
            #navbar ul{
-	       list-style-type: none;
+	        list-style-type: none;
 	        position: fixed;
-	        margin: -10px;
+	        margin: 0px;
             }
 
                  #navbar ul li {
 	             border: 3px solid #495453;
-	             font-family: Dawning of a New Day;
+	             font-family: Pacifico;
 	             font-size:30px;
-	             color:#000000 ;
+	             color:#F5C8BF;
 	             border-radius: -100px -100px;
 	             background-color: #CAD9CA;
 	             display:inline;
 	             padding:10px;
+	             margin:auto;
+	             
+	             
                  }
 
-                      #navbar ul li: hover {
-                       color: #000000;
-                       cursor:pointer;
-                       font-family:taviraj;
-                   }
+
+#conseils h2 {
+	             font-family: Pacifico;
+	             font-size: 40px;
+	             color:#F5C8BF;
+	             background-color: #495453;
+	             text-align:left;
+
+}
+.img_1 {
+	             width:300px;
+	             height:300px;
+	             border: 1px solid #495453;
+
+
+}
+
+.img_2 {
+	             width:200px;
+	             height:50px;
+	             display:block;
+	             margin:auto;
+
+
+}
+
+#ficheproduit p {
+	            font-style:Taviraj; sans-serif;
+}
+
+#linernote, #ficheproduit{ 
+           display: inline-block;
+
+}
+
+#inspirations h2 {
+	             font-family: Pacifico;
+	             font-size: 40px;
+	             color:#F5C8BF;
+	             background-color: #495453;
+	             text-align:left;
+
+
+}
+
+
+#inspirations img{
+                border-radius:50%;
+                height:250px; 
+                width:250px;
+                display:inline;
+                
+                
+}
+
+#inspirations  p{
+	           border: 3px solid #495453;
+	           font-style:Taviraj;
+
+}
+
+#inspirations img, #inspirations  p{  
+               display:inline-block;
+}                 
+
+
+#Whatshot h2{
+	         font-family: Pacifico;
+	         font-size: 40px;
+	         color:#F5C8BF;
+	         background-color: #495453;
+	         text-align:left;
+
+
+}
+ .img_whatshot {
+	             width:400px;
+	             height:400px;
+	             display:inline-block;
+	             margin-left:10px;
+
+}
+
+
 
