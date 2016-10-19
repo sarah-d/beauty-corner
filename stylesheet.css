@@ -8,15 +8,14 @@ h1{
 	background-color: #FFF5EE;
 	text-align:center;
 	margin-top: -15px;
-
-
 }
 
-#social{
-	   margin-bottom: -70px;
+@media (max-width: 768px) {
+	h1 { font-size:100px;
 
+	   }
+    }
 
-}
 
 
 #header {
@@ -69,7 +68,7 @@ h1{
 	            
 	             font-family: Loved by the king;
 	             font-size:30px;
-	             color:#F5C8BF;
+	             color:#FFF5EE;
 	             background-color: #FFF5EE;
 	             display:inline;
 	             padding:10px;
@@ -264,10 +263,10 @@ blockquote {
 
 }
 
-#textevanity p {
+.textevanity p {
 	             font-family:Taviraj;
 	             color:#000000;
-	             height:50%;
+	             height:40%;
 	             width: 100%;
 	             text-align:justify;
 	             line-height:25px;
@@ -312,23 +311,104 @@ blockquote {
 	         }
 
 #imagevanity{ 
-	            margin-right:-250px;
-	            margin-top:50px;
+	            margin-right:-240px;
+	            margin-top:115px;
+	            margin-left:-20px;
 
 }
 
-#textevanity, #imgagevanity {
+.textevanity, #imgagevanity {
 	          display:inline-block;
 	          width: 20%;
 	          float:left;
 	          
+}
+
+.hidden-box {
+    display: none;
+    background-color:#FFF5EE;
+    width: 50px;
+    height:50px;
+    color: #FFF5EE;
+    font-size:30px;
+    font-family: Loved by the king;
+    margin-left: -170px;
+    margin-top: 70px;
+    margin-bottom: -50px;
+    padding: 10px;
+}
+
+.hidden-box:hover {
+    background-color:#FFF5EE;
+    cursor: pointer;
+    border-radius: 5px;
+    color:#000000;
+}
+
+.textevanity:hover, .hidden-box {
+    display: block;
+}
+
+#footerbar {
+	     position:relative;
+	     margin-top: 150px;
+	     margin-bottom:-50px;
+	     background-color:#F5C8BF;
+	     border-top-left-radius: 10px;
+	     border-top-right-radius: 10px;
+	     width: 100%;
+	     height: 80px;
+	     float:bottom;
 
 }
 
-#imagevanity a : hover {
-	             opacity: 0.2;
+#footerbar ul li{
+	     font-family: Loved by the king; sans-serif;
+	     font-size:30px;
+	     display:inline;
+	     padding:5px;
+	     margin :0 50px;
+	     margin-left:-30px;
+	     margin-top:-100px;
+
+
 
 }
+
+#footerbar a:link {
+	    text-decoration:none;
+	    color:#000000;
+	 }
+
+#footerbar a:visited {
+	    text-decoration:none;
+	    color:#000000;
+
+}
+#footerbar a:hover{
+	    opacity: 0.5;
+	    font-family:Pacifico;
+	    color:#000000;
+
+}
+
+#socialnetworks img {
+	    display:inline-block;
+	    width:50px;
+	    height:50px;
+	    position:relative;
+	    float:right;
+	    padding :10px;
+	    margin-top:-20px;
+	    margin-left: 10px;
+
+}
+
+.facebooklogo {
+	    width:150px;
+	    height:150px;
+}
+
 
 
 
