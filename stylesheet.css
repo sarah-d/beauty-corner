@@ -7,11 +7,12 @@ h1{
 	color:#000000
 	background-color: #FFF5EE;
 	text-align:center;
-	margin-top: -15px;
+	margin-top:50px;
+	margin-bottom:20px;
 }
 
 @media (max-width: 768px) {
-	h1 { font-size:100px;
+	h1 { font-size:75px;
 
 	   }
     }
@@ -36,7 +37,6 @@ h1{
  	
 
  }
-
 
 
 #navbar {
@@ -83,9 +83,16 @@ h1{
 	             color:#F5C8BF;
 	             background-color: #FFF5EE;
 	             text-align:center;
-	             margin-bottom: 20px;
+	             margin-bottom:30px;
+	             margin-top:60px;
 
 }
+
+@media (max-width: 768px) {
+	#conseils h2 {font-size:45px;
+
+	   }
+    }
  
  .subtitle {
   margin: 0 0 2em 0;
@@ -117,28 +124,28 @@ h1{
 }
 
 .img_1 {
-	             width:40%;
+	             /*width:40%;
 	             height:40%;
 	             border: 1px solid #A7E3C1;
-	             margin-bottom: 170px;
+	             margin-bottom: 170px;*/
 
 }
 
 .img_2 {
-	             width:40%;
-	             height:40%;
+	             /*width:40%;
+	             height:40%;*/
 	             display:block;
-	             margin-right:-55px;
-	             margin-top: -150px;
+	             /*margin-right:-55px;
+	             margin-top: -150px;*/
 
 
 }
 
 #ficheproduit p {
 	            font-family:Taviraj; sans-serif;
-	            margin-right: -200px;
+	           /* margin-right: -200px;
 	            margin-left: -200px;
-	            margin-bottom: 0px;
+	            margin-bottom: 200px;*/
 	            line-height: 20px;
 	            text-align: justify;
 	            vertical-align: top;
@@ -148,24 +155,26 @@ h1{
 
 #ficheproduit ul li {
 	            font-family: Taviraj; sans-serif;
-	            margin-right: -150px;
-	            margin-left: -150px;
+	            /*margin-right: -150px;
+	            margin-left: -150px;*/
+
 	            line-height: 20px;
 	            text-align: justify;
 
 
 }
 
-#linernote, #ficheproduit{ 
+/*#linernote, #ficheproduit{ 
            display: inline-block;
            width: 40%;
            height:38%;
 
 
-}
+}*/
 blockquote {
            display: inline-block;
-           margin-right: 150px;
+           margin-right: 0px;
+           margin-left:50px;
            text-align:center;
 
 }
@@ -178,45 +187,54 @@ blockquote {
 	             color:#F5C8BF;
 	             background-color: #FFF5EE;
 	             text-align:center;
-	             margin-bottom: 10px;
-	             margin-top:20px;
+	             margin-bottom:10px;
+	             margin-top:30px;
 
 
 }
+@media (max-width: 768px) {
+	#inspirations h2 {font-size:45px;
 
+	   }
+    }
 
 #inspirations img {
-                border-radius:50%;  
-                width: 300px;
+                /*border-radius:50%;*/  
                 display:block;
+                /*width: 100%;*/
 
                              
 }
 
 .liner1 {
-	     margin-left: -2px;
-	     margin-bottom: 0px;
+	     margin-left: -10px;
+	     /*margin-bottom: 0px;*/
+	     width:200px;
+	     border-radius:50%;
 
 
 }
 
 .liner2{
-	     margin-left:280px;
-	     margin-bottom:0px;
+	     margin-left:160px;
+	     /*margin-bottom:0px;*/
+	     width:200px;
+	     border-radius:50%;
 }
 
 #inspirations p{
 
 	           font-family: Taviraj;
-	           width : 70%;
 	           display:inline-block;
 	           line-height: 25px;
 	           text-align: justify;
+	           /*width:70%;*/
+
 	          
 }
-#imgtuto, #textetuto {
+/*#imgtuto, #textetuto {
 	          display:inline-block;
-	          width: 48%
+	          width: 48%*/
 
 
 }    
@@ -227,16 +245,22 @@ blockquote {
 	             color:#F5C8BF;
 	             background-color: #FFF5EE;
 	             text-align:center;
-	             margin-top: 20px;
+	             margin-top:70px;
 	             margin-bottom:30px;
 
 
 }
+
+@media (max-width: 768px) {
+	#Whatshot h2 {font-size:45px;
+
+	   }
+    }
  .img_whatshot {
-	             width:400px;
-	             height:400px;
+	             width:380px;
+	             height:380px;
 	             display:inline-block;
-	             margin-left:10px;
+	             margin-top:30px;
 
 }
 
@@ -250,18 +274,24 @@ blockquote {
 	             margin-bottom:30px;
 }
 
+@media (max-width: 768px) {
+	#Videvanity h2 {font-size:45px;
+
+	   }
+    }
+
 #Videvanity h3 {
 	             font-family:Taviraj;
 	             font-size:20px;
 	             color:#000000;
 	             border : 1px solid #000000;
 	             text-align:center;
-	             margin-top:30px;
+	             margin-top:20px;
 	             margin-bottom:20px;
 
-
-
 }
+
+
 
 .textevanity p {
 	             font-family:Taviraj;
@@ -277,50 +307,52 @@ blockquote {
 
 
 .img_vanity1 {
-	             width:20%;
-	             height:20%;
-	             display:inline-block;
+	             width:30%;
+	             height:30%;
+	             display:inline;
 	             
 	             
 
 }
 
 .img_vanity2 {
-	             width:20%;
-	             height:20%;
-	             display:inline-block;
+	             width:30%;
+	             height:30%;
+	             display:inline;
 	             
 	             
 
 }
 .img_vanity3 {
-	             width:18.5%;
-	             height:18.5%;
-	             display:inline-block;
+	             width:28.5%;
+	             height:28.5%;
+	             display:inline;
 	             
 	             
 
 }
 
 .arrow {
-	             width:45px;
-	             height:45px;
-	             margin-bottom: 30px;
-	             display:inline-block;
+	             width:30px;
+	             height:30px;
+	             /*margin-bottom: 30px;*/
+	             display:inline;
 	             
 	         }
 
 #imagevanity{ 
-	            margin-right:-240px;
-	            margin-top:115px;
-	            margin-left:-20px;
+	           /*margin-right:-250px;
+	            margin-top:50px;
+	            margin-left:400px;*/
+
 
 }
 
 .textevanity, #imgagevanity {
 	          display:inline-block;
-	          width: 20%;
+	          /*margin-bottom: -700px;*/
 	          float:left;
+	          
 	          
 }
 
