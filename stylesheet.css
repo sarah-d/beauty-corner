@@ -1,21 +1,22 @@
-body{background-color: #FFF5EE;
+body{
+	background-color: #FFF5EE;
 }
 
 h1{
-	font-family: Dawning of a new day;
+	font-family: Dawning of a new day, sans-serif;
 	font-size: 150px;
-	color:#000000
-	background-color: #FFF5EE;
+	color:#000000;
+	background-color:#FFF5EE;
 	text-align:center;
 	margin-top:50px;
 	margin-bottom:20px;
 }
 
 @media (max-width: 768px) {
-	h1 { font-size:75px;
-
+	h1 { 
+		font-size:75px;
 	   }
-    }
+}
 
 
 #header {
@@ -29,24 +30,53 @@ h1{
 	height: 100%;*/
 
 }
- #header a {
+#header a {
  	position:relative;
  	/*display:inline;*/
  	margin-bottom: 0px;
  	background-color:#FFF5EE;
- 	
-
  }
 
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: -40px;
+  margin-top:-40px;
+  color:#FFFFFF;
+  background-color:#696969;
+  
+}
+
+.jumbotron h2 {
+  font-family: Loved by the king, sans-serif;
+  font-size :40px;
+
+}
+
+.jumbotron p {
+	font-family:Taviraj, sans-serif;
+	font-size : 17px;
+}
+
+.btnheader {
+	border-style: none;
+	color:#000000;
+	font-family:Loved by the king, sans-serif;
+	background-color:#A7E3C1;
+}
+
+.btnheader a:hover {
+	text-decoration:none;
+	color:#000000;
+}
 
 /*#navbar {
     left:100%;
 	width: 100%;
 	margin-left:-45px;
 	margin-bottom:0px;
-	margin-top:15px;*/
+	margin-top:15px;
 	
-}
+}*/
     #navbar a:link {
 	    text-decoration:none;
 	    color:#000000;
@@ -57,21 +87,21 @@ h1{
 	 }
 	 #navbar a:hover{
 	    opacity: 0.5;
-	    font-family:Pacifico;
+	    font-family:Pacifico, sans-serif;
 	    color:#A7E3C1;
 	    text-decoration:none;
 	 }
            #navbar ul{
-	        list-style-type: none;
-	        margin: 0px;
+	        list-style-type:none;
+	        margin:0px;
             }
 
                  #navbar ul li {
 	            
-	             font-family: Loved by the king;
+	             font-family: Loved by the king,sans-serif;
 	             font-size:27px;
 	             color:#FFF5EE;
-	             background-color: #FFF5EE;
+	             background-color:#FFF5EE;
 	             /*display:inline;*/
 	             padding:5px;
 	             margin :0 20px;
@@ -85,22 +115,20 @@ h1{
 	    margin-right:0px;
 	    margin-top:15px;
 	    padding:5px;
-	    font-family: Loved by the king;
+	    font-family: Loved by the king, sans-serif;
 	    font-size:20px;
 	    border-radius:10px;
 	    background-color:#F5C8BF;
 }
 
 .navbar-header{
-	background-color: #FFF5EE;
+	background-color:#FFF5EE;
 	float:left;
-
 }
 
 .container-fluid{
-	background-color: #FFF5EE;
+	background-color:#FFF5EE;
 	border-bottom:1px solid #000000;
-
 }
 
 .navbar-toggle{
@@ -109,30 +137,55 @@ h1{
 }
 
 #dropdownMenu1{
-	background-color: #FFF5EE;
-	margin-top:-10px; 
+	background-color:#FFF5EE;
+	margin-top:-5px; 
 	border:#FFF5EE;
 	padding:-10px;
 	margin-left:-10px;
 }
 
-.dropdown-menu li {
-	background-color: #FFF5EE
-	width:50px;
+.dropdown-menu ul li{
+	background-color:#FFF5EE;
+	width:100px;
 	height:50px;
+}
+
+.modal-title{
+	text-align:center;
+	font-size:40px;
+	font-family:Loved by the king, sans-serif;
+	color:#FFFFFF;
+}
+
+.modal-body{
+	text-align:center;
+	font-size:17px;
+	font-family:taviraj, sans-serif;
+	line-height:20px;
+	background-color:#FFF5EE;
+	border-bottom:2px solid #FFF5EE;
+	margin-top: 10px;
+}
+
+.modal-header {
+   background-color:#F5C8BF;
+   border-bottom:2px solid #FFF5EE;
+   border-radius:5px;
+   margin-bottom:-10px;
+   text-align:center;
 
 }
 
-#conseils {
-margin-left: 10px;
+.modal-footer {
+	background-color:#FFF5EE;
 
 }
 
 #conseils h2 {
-	             font-family: Loved by the king;
+	             font-family: Loved by the king, sans-serif;
 	             font-size: 60px;
 	             color:#F5C8BF;
-	             background-color: #FFF5EE;
+	             background-color:#FFF5EE;
 	             text-align:center;
 	             margin-bottom:30px;
 	             margin-top:60px;
@@ -140,7 +193,8 @@ margin-left: 10px;
 }
 
 @media (max-width: 768px) {
-	#conseils h2 {font-size:45px;
+	#conseils h2 {
+		font-size:45px;
 
 	   }
     }
@@ -163,7 +217,7 @@ margin-left: 10px;
   border-bottom: 2px solid #000000;
   border-top: 2px solid #000000;
   top: 0;
-  width: 463px;
+  width: 600px;
 }
 .fancy span:before {
   right: 100%;
@@ -193,26 +247,21 @@ margin-left: 10px;
 }
 
 #ficheproduit p {
-	            font-family:Taviraj; sans-serif;
+	            font-family:Taviraj, sans-serif;
 	           /* margin-right: -200px;
 	            margin-left: -200px;
 	            margin-bottom: 200px;*/
-	            line-height: 20px;
+	            line-height:20px;
 	            text-align: justify;
-	            vertical-align: top;
-
-
+	            vertical-align:top;
 }
 
 #ficheproduit ul li {
-	            font-family: Taviraj; sans-serif;
+	            font-family: Taviraj, sans-serif;
 	            /*margin-right: -150px;
 	            margin-left: -150px;*/
-
 	            line-height: 20px;
 	            text-align: justify;
-
-
 }
 
 /*#linernote, #ficheproduit{ 
@@ -227,22 +276,18 @@ blockquote {
            margin-right: 0px;
            margin-left:50px;
            text-align:center;
-
 }
 
-
-
 #inspirations h2 {
-	             font-family: Loved by the king;
-	             font-size: 60px;
+	             font-family: Loved by the king, sans-serif;
+	             font-size:60px;
 	             color:#F5C8BF;
-	             background-color: #FFF5EE;
+	             background-color:#FFF5EE;
 	             text-align:center;
 	             margin-bottom:10px;
 	             margin-top:30px;
-
-
 }
+
 @media (max-width: 768px) {
 	#inspirations h2 {font-size:45px;
 
@@ -252,26 +297,122 @@ blockquote {
 #inspirations img {
                 /*border-radius:50%;*/  
                 display:block;
-                /*width: 100%;*/
+                /*width: 100%;*/                          
+}
 
-                             
+.hidden-box2 {
+	margin-left:-10px;
+	border-radius:50%;
+	position:absolute;
+	width:230px;
+	height:230px;	
+}
+
+.hidden-box2:hover {
+	background-color:black;
+	opacity:0.8;
+	transition: 0.2s;
+	
+}
+
+.hidden-box2 p{
+	color:transparent;
+	margin-left:50px;
+	margin-top:110px;	
+}
+
+.hidden-box2 p:hover{
+ color:#A7E3C1;
+ font-size:25px;
+ font-family:Loved by the king, sans-serif;
+
 }
 
 .liner1 {
 	     margin-left: -10px;
 	     /*margin-bottom: 0px;*/
-	     width:200px;
+	     width:230px;
 	     border-radius:50%;
+}
 
+.hidden-box3 {
+	margin-left:160px;
+	border-radius:50%;
+	position:absolute;
+	width:210px;
+	height:210px;	
+}
+
+.hidden-box3:hover {
+	background-color:black;
+	opacity:0.8;
+	transition: 0.2s;
+}
+
+.hidden-box3 p{
+	color:transparent;
+	margin-left:50px;
+	margin-top:90px;	
+}
+
+.hidden-box3 p:hover{
+ color:#A7E3C1;
+ font-size:25px;
+ font-family:Loved by the king, sans-serif;
 
 }
 
 .liner2{
 	     margin-left:160px;
 	     /*margin-bottom:0px;*/
-	     width:200px;
+	     width:210px;
 	     border-radius:50%;
 }
+
+
+.hidden-box4 {
+	margin-left:0px;
+	border-radius:50%;
+	position:absolute;
+	width:170px;
+	height:180px;	
+}
+
+.hidden-box4:hover {
+	background-color:black;
+	opacity:0.8;
+	transition: 0.2s;
+}
+
+.hidden-box4 p{
+	color:transparent;
+	margin-left:40px;
+	margin-top:80px;	
+}
+
+.hidden-box4 p:hover{
+ color:#A7E3C1;
+ font-size:20px;
+ font-family:Loved by the king, sans-serif;
+
+}
+
+.hidden-box4 span {
+	font-family: Loved by the king; 
+}
+
+.liner3{
+	     margin-left:0px;
+	     /*margin-bottom:0px;*/
+	     width:170px;
+	     border-radius:50%;
+}
+
+@media (max-width:768px) {
+	.liner3 {
+		display:none;
+	   }
+    }
 
 #inspirations p{
 
@@ -279,27 +420,23 @@ blockquote {
 	           display:inline-block;
 	           line-height: 25px;
 	           text-align: justify;
-	           /*width:70%;*/
-
-	          
+	           /*width:70%;*/	          
 }
+
 /*#imgtuto, #textetuto {
 	          display:inline-block;
-	          width: 48%*/
+	          width: 48%;
 
-
-}    
+}*/    
 
 #Whatshot h2{
-	             font-family: Loved by the king;
-	             font-size: 60px;
+	             font-family: Loved by the king, sans-serif;
+	             font-size:60px;
 	             color:#F5C8BF;
 	             background-color: #FFF5EE;
 	             text-align:center;
 	             margin-top:70px;
 	             margin-bottom:30px;
-
-
 }
 
 @media (max-width: 768px) {
@@ -307,19 +444,26 @@ blockquote {
 
 	   }
     }
- .img_whatshot {
+
+.img_whatshot {
 	             width:380px;
 	             height:380px;
 	             display:inline-block;
 	             margin-top:30px;
+	             max-height: 500px;
+	             position:relative;
+	             z-index:2;
+}
 
+.img_whatshot:hover{
+	opacity:0.5;
 }
 
 #Videvanity h2 {
-	             font-family: Loved by the king;
-	             font-size: 60px;
+	             font-family: Loved by the king, sans-serif;
+	             font-size:60px;
 	             color:#F5C8BF;
-	             background-color: #FFF5EE;
+	             background-color:#FFF5EE;
 	             text-align:center;
 	             margin-top:40px;
 	             margin-bottom:30px;
@@ -332,34 +476,47 @@ blockquote {
     }
 
 #Videvanity h3 {
-	             font-family:Taviraj;
+	             font-family:Taviraj, sans-serif;
 	             font-size:20px;
 	             color:#000000;
 	             border : 1px solid #000000;
 	             text-align:center;
 	             margin-top:20px;
 	             margin-bottom:20px;
-
 }
 
 
 
 .textevanity p {
-	             font-family:Taviraj;
+	             font-family:Taviraj, sans-serif;
 	             color:#000000;
 	             height:40%;
 	             width: 100%;
 	             text-align:justify;
 	             line-height:25px;
 	             
+}
+
+.carousel-caption {
+       text-align:center;
+       font-family:Loved by the king, sans-serif;
+       font-size:17px;
+       color:#A7E3C1;
+       margin-bottom:-40px;
 
 
 }
 
+h4 {
+	text-align:center;
+	font-size:30px;
+	color:#A7E3C1;
+	margin-bottom:0px;
+}
 
-.img_vanity1 {
-	             /*width:30%;
-	             height:30%;*/
+/*.img_vanity1 {
+	             width:30%;
+	             height:30%;
 	             display:inline-block;
 	             
 	             
@@ -367,45 +524,41 @@ blockquote {
 }
 
 .img_vanity2 {
-	             /*width:30%;
-	             height:30%;*/
+	             width:30%;
+	             height:30%;
 	             display:inline-block;
 	             
 	             
 
 }
 .img_vanity3 {
-	             /*width:28.5%;
-	             height:28.5%;*/
+	             width:28.5%;
+	             height:28.5%;
 	             display:inline-block;
 	             
 	             
 
-}
+}*/
 
-.arrow {
+/*.arrow {
 	             width:40px;
 	             height:40px;
 	             margin-top:40px;
 	             display:inline-block;
 	             
-	         }
+	         }*/
 
 
 #imagevanity{ 
 	            /*margin-right:0px;*/
 	            margin-top:10px;
 	            /*margin-left:400px;*/
-
-
 }
 
 .textevanity, #imgagevanity {
 	          display:inline-block;
 	          /*margin-bottom: -700px;
-	          float:left;*/
-	          
-	          
+	          float:left;*/	          
 }
 
 /*.prixvanity {
@@ -416,16 +569,16 @@ blockquote {
 
 .btnvanity {
 	text-decoration:none;
-	font-family:Loved by the king;
+	font-family:Loved by the king, sans-serif;
 	font-size:30px;
 	background-color:#F5C8BF;
-	width:100px;
-	height:40px;
+	width:200px;
+	height:50px;
 	border-radius:5px;
 	color:#000000;
 	text-align:center;
-	margin-right:165px;
-	margin-left:10px;
+	/*margin-right:165px;
+	margin-left:10px;*/
 	margin-bottom:50px;
 	margin-top:20px;
 	padding-bottom:10px;
@@ -435,8 +588,8 @@ blockquote {
 }
 
 .btnvanity:hover{
-	    opacity: 0.6;
-	    font-family:Loved by the king;
+	    opacity: 1;
+	    font-family:Loved by the king, sans-serif;
 	    color:#000000;
 	    text-decoration:none;
 	    background-color:#A7E3C1;
@@ -451,7 +604,7 @@ blockquote {
     height:70px;
     color: #FFF5EE;
     font-size:30px;
-    font-family: Loved by the king;
+    font-family: Loved by the king, sans-serif;
     margin-left: 130px;
     padding: 10px;
     text-align:center;
@@ -461,9 +614,9 @@ blockquote {
 .hidden-box:hover {
     background-color:#FFF5EE;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius:5px;
     color:#000000;
-    transition: 2s;
+    transition:2s;
 }
 
 .textevanity:hover, .hidden-box {
@@ -472,26 +625,26 @@ blockquote {
 
 #footerbar {
 	     position:relative;
-	     margin-top: 20px;
+	     margin-top:70px;
 	     margin-bottom:-50px;
 	     background-color:#F5C8BF;
-	     border-top-left-radius: 10px;
-	     border-top-right-radius: 10px;
+	     border-top-left-radius:10px;
+	     border-top-right-radius:10px;
 	     width: 100%;
 	     height: 80px;
-	     float:bottom;
+	     /*float:bottom;*/
 	     padding:20px;
-
 }
 
 #footerbar ul li{
-	     font-family: Loved by the king; sans-serif;
-	     font-size:30px;
-	     display:inline;
-	     padding:5px;
-	     margin :0 50px;
+	     font-family: Loved by the king, sans-serif;
+	     font-size:25px;
+	     list-style-type:none;
 	     margin-left:-30px;
-	     margin-top:-100px;
+	     padding:0px;
+	     /*display:inline;
+	     margin :0 50px;
+	     margin-top:-100px;*/
 
 }
 
@@ -507,27 +660,24 @@ blockquote {
 }
 #footerbar a:hover{
 	    opacity: 0.5;
-	    font-family:Pacifico;
+	    font-family:Pacifico, sans-serif;
 	    color:#000000;
 
 }
 
-#socialnetworks img {
-	    display:inline-block;
+/*#socialnetworks ul li {
+	    /*display:inline-block;
 	    width:50px;
 	    height:50px;
-	    position:relative;
-	    float:right;
 	    padding :10px;
-	    margin-top:-20px;
-	    margin-left: 10px;
-
+	    /*float:right;
+	    margin-right:-200px;
 }
 
 .facebooklogo {
 	    width:150px;
 	    height:150px;
-}
+}*/
 
 
 
